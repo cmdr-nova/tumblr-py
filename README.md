@@ -21,7 +21,7 @@ pip install mastodon.py
 Put the script into the same directory, and then set us up a cronjob to pull just once, per day.
 
 ```
-0 17 * * * tumblr-bot/tumblr-env/bin/python3 tumblr-bot/tumblr-bot.py
+0 17 * * * tumblr-bot/tumblr-env/bin/python3 tumblr-py/tumblr-py.py
 ```
 (this is an example that posts at 5pm each day)
 
